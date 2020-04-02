@@ -8,8 +8,8 @@ const rgbToHex = (r, g, b) => {
   return "#" + componentToHex(parseInt(r)) + componentToHex(parseInt(g)) + componentToHex(parseInt(b));
 }
 
-const dataRgb = {
+const dataRgbHex = {
     componentToHex, rgbToHex
 }
 
-module.exports = dataRgb;
+module.exports = dataRgbHex;
