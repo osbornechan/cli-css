@@ -8,6 +8,6 @@ const hexToRgb = (hex) => {
   } : null;
 }
 
-const dataHexRgb = {hexToRgb};
+const dataHex = {hexToRgb};
 
-module.exports = dataHexRgb;
+module.exports = dataHex;
